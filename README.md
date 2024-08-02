@@ -45,13 +45,13 @@ The program is divided into the following main parts:
 To compile the program, run the following command in the terminal:
 
 ```sh
-gcc -o random_sum_program random_sum_program.c -lpthread
+gcc -lpthread it2022120.c
 ```
 ## Execution
 After successful compilation, execute the program with:
 
 ```sh
-./random_sum_program
+./a.out
 ```
 ### Expected Result
 ```sh
