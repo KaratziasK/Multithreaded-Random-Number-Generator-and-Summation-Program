@@ -53,7 +53,26 @@ After successful compilation, execute the program with:
 ```sh
 ./random_sum_program
 ```
-
+### Expected Result
+```sh
+Parent process!
+Child Process!
+Writing in file ended!
+Output must be: 249829
+Thread: 1
+Read lines: 25
+Its local sum is: 61692
+Thread: 2
+Read lines: 25
+Its local sum is: 61417
+Thread: 3
+Read lines: 25
+Its local sum is: 63049
+Thread: 4
+Read lines: 25
+Its local sum is: 63671
+The total sum for all threads is:249829
+```
 ## Signal Handling
 The program can handle SIGINT (Ctrl+C) and SIGTERM signals.
 If you send a SIGINT or SIGTERM to the program, it will prompt you to confirm whether you want to terminate the execution.
